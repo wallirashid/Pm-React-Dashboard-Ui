@@ -1,0 +1,20 @@
+.main-layout {
+  background-color: $light-sky-color !important;
+}
+.ant-layout {
+  min-height: 100vh !important;
+}
+.ant-layout-header {
+  background-color: $white-color !important;
+  span > img {
+    width: 50px;
+    height: 20px;
+  }
+}
+.ant-layout-sider {
+  background-color: $dark-blue-color !important;
+  .ant-menu.ant-menu-dark,
+  .ant-menu-dark .ant-menu-sub {
+    background-color: $dark-blue-color !important;
+  }
+}
